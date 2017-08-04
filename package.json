@@ -1,19 +1,20 @@
 {
-  "author": "Dby <duanby0426@163.com> (http://www.duanbingyang.com)",
-  "name": "react-webuploader-ddd",
-  "description": "A example for write a module",
-  "version": "0.0.1",
-  "repository": {
-    "url": ""
-  },
-  "main": "./webUploader/Components/webUpLoader.js",
-  "engines": {
-    "node": "*"
-  },
-  "dependencies": {},
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "license": "ISC"
+	"author": "Dby <duanby0426@163.com> (http://www.duanbingyang.com)",
+	"name": "react-webuploader-ddd",
+	"description": "A example for write a module",
+	"version": "0.0.1",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/duanbingyang/react-webuploader-ddd"
+	},
+	"main": "https://github.com/duanbingyang/react-webuploader-ddd/webUploader/Components/webUpLoader.js",
+	"engines": {
+		"node": "*"
+	},
+	"dependencies": {},
+	"devDependencies": {},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"license": "ISC"
 }
