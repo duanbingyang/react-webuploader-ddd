@@ -1,0 +1,20 @@
+.uploadImgBox{
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	.uploadImgHide{
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		z-index: 10;
+		background-image: url('../../../../images/webUpLoader/deleteIcon.png');
+		background-size: 80px 80px;
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-color: rgba(0,0,0,0.2);
+		border-radius: 6px;
+		display: none;
+	}
+}
