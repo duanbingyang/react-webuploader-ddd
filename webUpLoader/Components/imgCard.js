@@ -1,5 +1,5 @@
 
-import ImgBox from '../../indexLogin/content/imgCard.js';
+import ImgBox from './imgBox.js';
 require ('./imgCard.css');
 export default class ImgArea extends React.Component {
 

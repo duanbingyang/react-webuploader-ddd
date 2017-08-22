@@ -1,9 +1,8 @@
-// import React from 'react';
+import React from 'react';
 // import 'expose?$!expose?jQuery!jquery';
 import webu from '../vendor/webuploader.html5only.js';
 import ImgCard from './imgCard.js';
-
-require('../../../../sass/webUpLoader/index.css');
+require('./index.css');
 
 class WebUploader extends React.Component {
 
@@ -136,8 +135,8 @@ class WebUploader extends React.Component {
             if(this.state.fileUrlList[i].preview){
                     imgDom.push(
                             <ImgCard
-                                key={i}
-                                width={this.props.styleConfig.width}
+                                key = {i}
+                                width = {this.props.styleConfig.width}
                                 imgScale = {this.props.styleConfig.whSale}          //图片宽高比，宽/高
                                 imgUrl = {this.state.fileUrlList[i].preview}		//图片地址
                                 index={i}
@@ -187,7 +186,7 @@ class WebUploader extends React.Component {
                                         width: this.props.otherStyleConfig.imgWidth || 110,
                                         height: this.props.otherStyleConfig.imgHeight || 100
                                     }} 
-                                    src={this.props.otherUploaderConfig.defaultTips.imgUrl ? this.props.otherUploaderConfig.defaultTips.imgUrl : require('../../../../images/webUpLoader/defaultBg1.png')}
+                                    src={this.props.otherUploaderConfig.defaultTips.imgUrl ? this.props.otherUploaderConfig.defaultTips.imgUrl : require('./images/defaultBg1.png')}
                                 />  
                             }
                                 <h3 style={{fontSize: this.props.otherStyleConfig.titleFontSize || 20, color: '#666666'}}>{this.props.otherUploaderConfig.defaultTips.title}</h3>

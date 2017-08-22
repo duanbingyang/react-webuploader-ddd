@@ -9,7 +9,7 @@
 		bottom: 0;
 		left: 0;
 		z-index: 10;
-		background-image: url('../../../../images/webUpLoader/deleteIcon.png');
+		background-image: url('./images/deleteIcon.png');
 		background-size: 80px 80px;
 		background-position: center center;
 		background-repeat: no-repeat;
